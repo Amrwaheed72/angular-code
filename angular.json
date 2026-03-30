@@ -50,6 +50,7 @@
                 "glob": "**/*",
                 "input": "public"
               },
+              "src/assets",
               "src/_redirects"
             ],
             "styles": [
