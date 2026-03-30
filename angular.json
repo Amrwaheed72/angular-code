@@ -19,8 +19,7 @@
             "glob": "**/*",
             "input": "public"
           },
-          "src/assets",
-          "src/_redirects"
+          "src/assets"
         ],
         "@schematics/angular:service": {
           "type": "service"
@@ -49,7 +48,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/_redirects"
             ],
             "styles": [
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
