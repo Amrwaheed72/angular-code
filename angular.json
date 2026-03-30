@@ -19,7 +19,8 @@
             "glob": "**/*",
             "input": "public"
           },
-          "src/assets"
+          "src/assets",
+          "src/_redirects"
         ],
         "@schematics/angular:service": {
           "type": "service"
