@@ -140,6 +140,6 @@ export class DashboardPComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.renderer.dispose();
+    this.renderer?.dispose();
   }
 }
