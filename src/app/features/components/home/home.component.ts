@@ -11,7 +11,6 @@
 // }
 
 import { Component } from '@angular/core';
-import { BeatingHeartComponent } from '../beating-heart/beating-heart.component';
 interface HealthTip {
   title: string;
   text: string;
@@ -20,7 +19,6 @@ interface HealthTip {
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [BeatingHeartComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
 })
