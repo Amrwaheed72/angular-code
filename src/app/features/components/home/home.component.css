@@ -10,6 +10,5 @@
   width: 100%;
   max-width: 400px; /* تقدر تكبره أو تصغره حسب تصميمك */
   border-radius: 20px; /* لو عايز تدور الحواف بتاعته */
-
   mix-blend-mode: multiply;
 }
